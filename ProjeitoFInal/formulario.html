@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <h1>Formulário de Aluguel do Filme</h1>
+<div class="form">
+
+        <form action="">
+
+            <label for="nome">Nome do usuário:</label> <br>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome de usuario" required> <br>
+            <br>
+            <label for="email">Email:</label> <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required><br>
+            <br>
+            <label for="senha">Senha:</label> <br>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required> <br>
+            <br>
+            <label for="idade">Idade:</label> <br>
+            <input type="number" name="idade" min="10" id="idade" placeholder="Sua idade" required> <br>
+            <br>
+            <label for="tempo">Estou alugando este filme por...</label> <br>
+            <input type="radio" name="tempo" id="">1 dia<br>
+            <input type="radio" name="tempo" id="">1 semana<br>
+            <input type="radio" name="tempo" id="">1 mês<br>
+            <br>
+            <label for="pagamento">Método de Pagamento:</label> <br>
+            <input type="radio" name="pagamento" id="pix">Pix<br>
+            <br>
+            <label for="termos">Aceito os termos</label>
+            <input type="checkbox" name="termos" required><br>
+            <label for="termos">Estou ciente da tabela de preços</label>
+            <input type="checkbox" name="termos" required><br>
+            <br>
+            <button type="submit" onclick="javascript:alert('Aluguel efetuado com sucesso!');">Enviar</button>
+            <button type="reset">Reiniciar</button>
+        </form>
+    </div>
+</body>
+
+</html>

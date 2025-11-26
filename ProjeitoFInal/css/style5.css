@@ -1,0 +1,66 @@
+body {
+    background-image: url("../img/bg_pink.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    color: white;
+}
+
+.titulo {
+    font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.container1{
+    display: flex;
+    justify-content:center;
+}
+
+.imagens {
+    padding: 40px;
+}
+
+.img1 {
+    border: 4px solid white;
+}
+
+.img2 {
+    border: 4px solid white;
+}
+
+.img3 {
+    border: 4px solid white;
+}
+
+.img4 {
+    border: 4px solid white;
+}
+
+#alugar {
+    height: 30px;
+    width: 100px;
+}
+
+#alugar2 {
+    height: 30px;
+    width: 100px;
+}
+#alugar3 {
+    height: 30px;
+    width: 100px;
+}
+#alugar4 {
+    height: 30px;
+    width: 100px;
+}
+
+p {
+    font-size: 22px;
+    text-shadow: 3px 3px 3px rgb(241, 45, 45), -1px -1px 2px wheat;
+    padding-left: 5px;
+}
+
+@media ( orientation: portrait) {
+    
+}

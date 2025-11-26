@@ -1,0 +1,125 @@
+h1 {
+    padding-left: 45px;
+}
+
+.form {
+    left: 50px;
+    position: relative;
+    background-color: rgb(232, 223, 223);
+    width: 350px;
+    height: 600px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 20px;
+    color: black;
+}
+
+#nome {
+    background-color: silver;
+    border: 2px solid rgb(51, 51, 51);
+}
+
+#nome:focus {
+    background-color: rgb(164, 185, 253);
+}
+
+#email {
+    background-color: silver;
+   border: 2px solid  rgb(51, 51, 51);
+}
+
+#email:focus {
+    background-color: rgb(164, 185, 253);
+}
+
+#senha {
+    background-color: silver;
+    border: 2px solid  rgb(51, 51, 51);
+}
+
+#senha:focus {
+    background-color: rgb(164, 185, 253);
+}
+
+#idade {
+    background-color: silver;
+    border: 2px solid  rgb(51, 51, 51);
+}
+
+#idade:focus {
+    background-color: rgb(164, 185, 253);
+}
+
+input:checked {
+    accent-color: rgb(20, 131, 20);
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color: black;
+    }
+    .form {
+    left: 50px;
+    position: relative;
+    background-color: rgb(255, 160, 215);
+    width: 350px;
+    height: 600px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 2px solid rgb(94, 6, 6);
+    font-size: 20px;
+    color: rgb(124, 17, 17);
+    }
+
+    #nome {
+    background-color: rgb(241, 180, 180);
+    border: 2px solid rgb(230, 52, 111);
+    }
+
+    #nome:focus {
+    background-color: rgb(62, 107, 255);
+    }
+
+    #email {
+   background-color: rgb(241, 180, 180);
+    border: 2px solid rgb(230, 52, 111);
+    }
+
+    #email:focus {
+    background-color: rgb(62, 107, 255);
+    }
+
+    #senha {
+    background-color: rgb(241, 180, 180);
+    border: 2px solid rgb(230, 52, 111);
+    }
+
+    #senha:focus {
+    background-color: rgb(62, 107, 255);
+    }
+
+    #idade {
+    background-color: rgb(241, 180, 180);
+    border: 2px solid rgb(230, 52, 111);
+    }
+
+    #idade:focus {
+    background-color: rgb(62, 107, 255);
+    }
+
+    input:checked {
+    accent-color: rgb(158, 23, 23);
+    }
+
+    h1 {
+    padding-left: 45px;
+    color: white;
+    }
+
+    button {
+        background-color: rgb(182, 89, 182);
+        color: white;
+    }
+
+}
